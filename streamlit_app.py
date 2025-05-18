@@ -5,9 +5,6 @@ from io import BytesIO
 import pandas as pd
 import PyPDF2
 st.title("🎈 My new app")
-st.write(
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
-)
 
 openai_api_key = st.secrets["api_key"]
 client = openai.OpenAI(api_key = openai_api_key)
@@ -62,7 +59,9 @@ def main():
         "Kannada": "kn",
         "Telugu": "te",
         "French": "fr",
-        "English":"en"
+        "English":"en",
+        "Spanish":"es",
+        "German":"de"
         # Add more languages as needed
     }
 
