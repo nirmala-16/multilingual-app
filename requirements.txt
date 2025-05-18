@@ -3,3 +3,4 @@ openai
 gtts
 pandas
 PyPDF2
+openpyxl
